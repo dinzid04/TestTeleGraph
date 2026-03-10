@@ -1,10 +1,8 @@
-{
-  "projectId": "dinz-ai-gemini-copy",
-  "appId": "1:400464992596:web:68fde66c88d351699610c1",
-  "apiKey": "AIzaSyB2Rh7xaHUDcTkSVoDyTKhm3y6CiBbZ6S8",
-  "authDomain": "dinz-ai-gemini-copy.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-87fd4231-8594-473d-9855-e5dc8b87b320",
-  "storageBucket": "dinz-ai-gemini-copy.firebasestorage.app",
-  "messagingSenderId": "400464992596",
-  "measurementId": ""
-}
+const firebaseConfig = {
+  apiKey: "AIzaSyDIwADpfv0yNzwf-iT09O_jmVRBUgF2WjA",
+  authDomain: "cdndinz.firebaseapp.com",
+  projectId: "cdndinz",
+  storageBucket: "cdndinz.firebasestorage.app",
+  messagingSenderId: "931014314532",
+  appId: "1:931014314532:web:f1464d742d86980aaee6b1"
+};
