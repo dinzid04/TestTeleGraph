@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "FileRecord": {
+      "title": "FileRecord",
+      "description": "Represents an uploaded file with a short URL key.",
+      "type": "object",
+      "properties": {
+        "shortKey": { "type": "string", "description": "The 4-character short URL key." },
+        "originalName": { "type": "string", "description": "The original filename." },
+        "storagePath": { "type": "string", "description": "The path in Firebase Storage." },
+        "createdAt": { "type": "string", "format": "date", "description": "Timestamp of creation." }
+      },
+      "required": ["shortKey", "originalName", "storagePath", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/files/{shortKey}": {
+      "schema": { "$ref": "FileRecord" },
+      "description": "Stores mapping from short key to file metadata."
+    }
+  }
+}
