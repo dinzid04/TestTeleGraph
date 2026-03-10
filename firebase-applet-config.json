@@ -1,8 +1,8 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyDIwADpfv0yNzwf-iT09O_jmVRBUgF2WjA",
-  authDomain: "cdndinz.firebaseapp.com",
-  projectId: "cdndinz",
-  storageBucket: "cdndinz.firebasestorage.app",
-  messagingSenderId: "931014314532",
-  appId: "1:931014314532:web:f1464d742d86980aaee6b1"
-};
+{
+  "apiKey": "AIzaSyDIwADpfv0yNzwf-iT09O_jmVRBUgF2WjA",
+  "authDomain": "cdndinz.firebaseapp.com",
+  "projectId": "cdndinz",
+  "storageBucket": "cdndinz.firebasestorage.app",
+  "messagingSenderId": "931014314532",
+  "appId": "1:931014314532:web:f1464d742d86980aaee6b1"
+}
